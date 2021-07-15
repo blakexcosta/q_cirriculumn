@@ -12,6 +12,7 @@
 -  **Unit 2 Machine Learning/Deep Learning FUNdamentals**
 	+ **Overview of the Unit/Course**
 	+ **Project overview (building some simple predictor like study habits predicting passing rates... but more interesting)**
+	+ **AI Ethics**
 	+ Intro to deep neural nets?
 		+ overfitting and underfitting
 		+ stochastic gradient descent
@@ -44,4 +45,3 @@
 			- https://qiskit.org/
 		- Or Quantum development kit (Q#)
 			- https://azure.microsoft.com/en-us/resources/development-kit/quantum-computing/
-
