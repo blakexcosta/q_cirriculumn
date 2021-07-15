@@ -45,4 +45,3 @@
 		- Or Quantum development kit (Q#)
 			- https://azure.microsoft.com/en-us/resources/development-kit/quantum-computing/
 
-> Written with [StackEdit](https://stackedit.io/).
