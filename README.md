@@ -45,3 +45,6 @@
 			- https://qiskit.org/
 		- Or Quantum development kit (Q#)
 			- https://azure.microsoft.com/en-us/resources/development-kit/quantum-computing/
+
+
+- **IDEA: Use screeps to teach python fundamentals/Game dev AI?**
