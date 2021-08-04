@@ -48,3 +48,4 @@
 
 
 - **IDEA: Use screeps to teach python fundamentals/Game dev AI?**
+	- probably be a different course all together
