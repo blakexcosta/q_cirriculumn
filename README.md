@@ -16,7 +16,7 @@
 	+ **Project overview (building some simple predictor like study habits predicting passing rates... but more interesting)**
 	+ **AI Ethics**
 	+ Intro to deep neural nets?
-		+ model validation
+		+ **MODEL VALIDATION**
 		+ import your data:
 			 ```python
 			import pandas as pd
