@@ -16,7 +16,7 @@
 	+ **Project overview (building some simple predictor like study habits predicting passing rates... but more interesting)**
 	+ **AI Ethics**
 	+ Intro to deep neural nets?
-		+ **MODEL VALIDATION:**
+		+ model validation
 		+ import your data:
 			 ```python
 			import pandas as pd
@@ -49,6 +49,17 @@
 				predicted_home_prices = melbourne_model.predict(X)
 				mean_absolute_error(y, predicted_home_prices)
 				``` 
+			+	first we need to split the data into training and testing data
+				```python
+				from sklearn.model_selection import train_test_split
+				#split data and set the random state to the same if you need to replicate results
+				train_X, val_X, train_y, val_y = train_test_split(X,y,random_state=0)
+				melbourne_model = DecisionTreeRegressor()
+				melbourne_model.fit(train_X, train_y)
+				val_predictions = melbourne_model.predict(val_X)
+				print(mean_absolute_error(val_y, val_predictions))
+				```
+			+	In this specific example, notice that the absolute error for in sampled dat was 5-- and out of sample was over 250000. This is nearly a quarter of our home worth so it's not very usable for our case at the moment
 		+ overfitting and underfitting
 		+ stochastic gradient descent
 		+ activation functions
