@@ -1,4 +1,4 @@
-# Quantum Curriculum
+# Quantum Curriculum Draft
 
 
 - Please note this is just MY notes on subject material and resources I felt are good at describing the topics at hand
@@ -152,7 +152,7 @@
 
           ![image-20210813203212343](C:\Users\Blake\AppData\Roaming\Typora\typora-user-images\image-20210813203212343.png)
 
-          - 
+          
 
   - **Project overview (maybe a crpyto cipher or something?)**
 
