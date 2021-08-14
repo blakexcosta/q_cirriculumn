@@ -69,40 +69,45 @@
 		+ could possible break this out into it's own course all together
 	+ Natural Language Processing ?
 		+ could possibly break this out into it's own course all together
-- **Unit 3 Quantum Theory**
-	- **Quantum Computing**
-		- **High level overview/ why important**
-		- Information + Bits
-		- Qubits 
-		- Superpositioning
-		- Quantum Entanglement
-		- Superdense coding
-		- Quantum Teleportation
-		- Quantum Cryptography
-		- Intro to Q#/ Qiskit
-	- **Quantum Objects (this may not be required, could be bonus)**
-		- High level overview/ why important
-		- Observables
-- **Unit 4 Quantum Toolsets (Q#/Qiskit portion of course)**
-  - **Overview of Unit/Course**
+- **Unit 3 Quantum Theory + Computing Background** 
 
+  - **High level overview/ why important**
+  - https://qiskit.org/learn/?learnLevel=Beginner&timeScale=1%20week
+    - Coding with qiskit
     - Though there is many hurdles and areas need to grow; Quantum computing has the potential to allow us to solve problems previously thought to be impossible
-
+      - such as quantum chemistry such as calculating the bond length of molecules
+        - or quantum algorithms like the Bernstein-Vazirani Algorithm
+        - Or even program games based upon quantum computing
       - Our end goal here is to create a universal fault tolerant computer that surpasses the computational power of classical supercomputers
-
     - We presently have NISQ's (Noisy Intermediate-scale quantum computers)
-
       - However, they're still too complex to predict
-
     - Many advancements still require the use of traditional scientific methods with theory and experiments
-
       - however, the software developer/coder presents a possible solution with possibly allowing us to develop and advancing a quantum software framework. We need things like:
         - tools to study algorithms
         - build things for verification + validation of quantum devices
         - study small quantum codes
         - fault tolerance
         - optimal control theories
-        - developing reliable circuit + pulse scheduling schemes to run circuits on real devices
+        - developing reliable circuit + pulse scheduling schemes to run circuits on real device
+  - **Installing Qiskit**
+    - 
+  - **Information + Bits**
+  - **Qubits** 
+  - **Superpositioning**
+  - **Quantum Entanglement**
+  - **Superdense coding**
+  - **Quantum Teleportation**
+  - **Quantum Cryptography**
+  - **Intro to Q#/ Qiskit**
+  - **Quantum Objects (this may not be required, could be bonus)**
+  	- High level overview/ why important
+  	- Observables
+
+- **Unit 4 Quantum Toolsets (Q#/Qiskit portion of course)**
+
+  - **Overview of Unit/Course**
+
+    - 
 
     - **4 pillars of QisKit**
 
