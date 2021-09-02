@@ -3,6 +3,9 @@
 
 - Note: `R:` denotes areas still needed to reserach
 
+
+  - `{TODO: note on what to do}`  just denotes a todo of cirriculumn that needs to still be done/written/reworked 
+
 - Please note this is just MY notes on subject material and resources I felt are good at describing the topics at hand.
 
 - **Instruction, end goals/notes to understand:**
@@ -191,8 +194,15 @@
             - *R:* Bernstein-Vazirani algorithm. Didn't get much out of this video to be honest.
             - R: Good resource for bernstein-vazirani algorithm
               - https://github.com/qiskit-community/qiskit-community-tutorials/blob/master/Coding_With_Qiskit/ep6_Bernstein-Vazirani_Algorithm.ipynb
+  - **Contributing to Qiskit project**
+    - you can contribute by going to this link [Qiskit Terra Repository](https://github.com/Qiskit/qiskit-terra)
+      - click through issues and find one that you like and start contributing. do keep in mind that qiskit `Aer`, `Aqua` and `Ignis` also have their own repositories. I'm putting a list of all the repo's and where they can be found below:
+        - [Qiskit Aer](https://github.com/Qiskit/qiskit-aer)
+        - [Qiskit Aqua](https://github.com/Qiskit/qiskit-aqua)
+        - [Qiskit Ignis](https://github.com/Qiskit/qiskit-ignis)
+        - [Qiskit Terra... again here](https://github.com/Qiskit/qiskit-terra)
   - **Project overview (maybe a crpyto cipher or something?)**
-  - Resources/links:
+  - Appendum of all Resources/links:
     - https://qiskit.org/
     - https://qiskit.org/learn/?learnLevel=Beginner&timeScale=1%20minute
     - https://medium.com/qiskit/qiskit-and-its-fundamental-elements-bcd7ead80492
