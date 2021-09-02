@@ -1,8 +1,33 @@
 # Quantum Curriculum Draft
 
 
-- Please note this is just MY notes on subject material and resources I felt are good at describing the topics at hand
+- Note: `R:` denotes areas still needed to reserach
+
+- Please note this is just MY notes on subject material and resources I felt are good at describing the topics at hand.
+
+- **Instruction, end goals/notes to understand:**
+
+
+  - the end format is intended be structured like:  `theory` , `walkthrough/soft-exercise` and then `hard-exercise` sections at the end.
+
+    - we want to keep them as separate as possible to avoid bogging down theory portions with *excessive* code. As well as walkthrough's only having relevant theory information when needed (like re-enforcing an important point). The exercises are supposed to be a test of personal skills and applying theory learned and the walkthrough practical's to your own project/exercise.
+  - Hands *off* of the keyboard when learning theory. ***DO NOT***  code along with theory if code is used to explain. That is what the walkthrough and exercise portions are for, and they will re-inforce what is needed to be done.
+  - **Some smaller details (for staff):**
+
+    - highlight what is to be learned at beginning of theory session. And then also highlight what was done at the end of the theory portion or theory video. This re-enforces goals and objectives and provides some structure for everyone involved.
+
+      - example:
+
+        - Lesson Objectives:
+
+          - (Beginning of lecture): `Objectives: Learn fundamentals of AI Ethics`
+          - (End of lecture): `Objectives Accomplished: \n Learn fundamentals of AI Ethics`
+    - Keep theory, walkthrough and exercise sections as digestible, bite-sized and succinct as reasonably possible. Goal is to be a *guide* and to lead them through a subject. Not death-by-powerpoint them.
+
+      - Focus on clarity over everything. If even one small thing is learned, that is a success. 
+
 - **Unit 1 Data Science Fundamentals**
+	
 	- **Unit/Course Overview**
 	- **Project overview**
 	- Jupyter
@@ -11,6 +36,7 @@
 	- Numpy
 	- Pandas
 	- matplotlib
+	
 -  **Unit 2 Machine Learning/Deep Learning FUNdamentals**
 	+ **Overview of the Unit/Course**
 	+ **Project overview (building some simple predictor like study habits predicting passing rates... but more interesting)**
@@ -69,7 +95,8 @@
 		+ could possible break this out into it's own course all together
 	+ Natural Language Processing ?
 		+ could possibly break this out into it's own course all together
-- **Unit 3 Quantum Theory + Computing Background** 
+---
+- **Unit 3 Quantum Theory + Computing Background** (Theory Section)
 
   - **High level overview/ why important**
   - https://qiskit.org/learn/?learnLevel=Beginner&timeScale=1%20week
@@ -89,8 +116,6 @@
         - fault tolerance
         - optimal control theories
         - developing reliable circuit + pulse scheduling schemes to run circuits on real device
-  - **Installing Qiskit**
-    - 
   - **Information + Bits**
   - **Qubits** 
   - **Superpositioning**
@@ -102,15 +127,10 @@
   - **Quantum Objects (this may not be required, could be bonus)**
   	- High level overview/ why important
   	- Observables
-
-- **Unit 4 Quantum Toolsets (Q#/Qiskit portion of course)**
-
+---
+- **Unit 4 Quantum Toolsets (Q#/Qiskit portion of course)** (Walkthrough Section)
   - **Overview of Unit/Course**
-
-    - 
-
     - **4 pillars of QisKit**
-
       - Terra - "Earth"
         - foundation on which the rest of software lies.
         - Does/focused on the following:
@@ -135,16 +155,11 @@
         - Used to verify current + near future quantum computers function correctly
 
     - **Getting started with Qiskit**
-
       - Just going to paste this here for now (https://qiskit.org/documentation/tutorials/circuits/1_getting_started_with_qiskit.html):
-
         - Fundamental unit of Qiskit is the **quantum circuit**
-
         - A basic workflow has 2 stages in Qiskit
-
-          - **Build** - allows you to make quantum circuits that represent the problem you are solving
-          - **Execute** - allows you to run them on different backends
-
+          - `Build` - allows you to make quantum circuits that represent the problem you are solving
+          - `Execute` - allows you to run them on different backends
         - after jobs have been run, data is collected + postprocessed depending on what our *desired* output is
 
         - ***NOTE:*** You need to have Anaconda installed. 
@@ -154,32 +169,51 @@
           - As well as matplotlib and their recommendations for visualization tools
 
         - Uh. Holy crap I need to take a course and learn some new math. Way beyond my skills at the moment. time to learn more. For reference, here was where I left off (was right around this part with building a circuit + circuit basics)
-
           ![image-20210813203212343](C:\Users\Blake\AppData\Roaming\Typora\typora-user-images\image-20210813203212343.png)
-
-          
-
+        - After this, you need to get an API key from IBM so you can query their quantum computer. Usually what you will do is run a simulation and then submit it to the supercomputer to run.
+        - after you install anaconda, go to terminal and do a `pip install qiskit` 
+        - now run jupyter notebook by typing `jupyter notebook`
+        - I have notes for the code itself on my local copy
+        - Do note you have to create an account on the IBM Quantum Experience website `quantum-computing.ibm.com`
+    - **Quantum teleportation**
+      - building a circuit on qiskit
+      - is a Transfer of quantum states from one qubit to another. Does not mean physically transporting a qubit from one place to another.
+        - transfer of quantum information from one qubit to another
+      - but why do this?
+        - well. because in quantum systems transferring by copying is not allowed. And this is because once you copy you are implicitly doing a measurement. And measurements destroy the quantum state that you're trying to transfer from one qubit to another
+        - writing up notebook. initiated walkthrough.
+    - **Bernstein-Vazirani Algorithm**
+      - say there's a number in a box. and this number is described by 6 bits. so six strings of 0's and 1's. How many tries are needed to guess it correctly?
+        - classical computers will need n-tries for n-bits. meaning that you will need 6 tries. Quantum system's can do this in 1 shot with the Bernstein-Vazirani algorithm.
+        - say you have a secret number in  a box. This algorithim will be able to guess it.
+        - {TODO:fill in this area}
+          - https://www.youtube.com/watch?v=sqJIpHYl7oo
+            - *R:* Bernstein-Vazirani algorithm. Didn't get much out of this video to be honest.
+            - R: Good resource for bernstein-vazirani algorithm
+              - https://github.com/qiskit-community/qiskit-community-tutorials/blob/master/Coding_With_Qiskit/ep6_Bernstein-Vazirani_Algorithm.ipynb
   - **Project overview (maybe a crpyto cipher or something?)**
-
-  - choose one of the following to teach/review:
-  	- qiskit 
-  		- https://qiskit.org/
-  	- Or Quantum development kit (Q#)
-  		- https://azure.microsoft.com/en-us/resources/development-kit/quantum-computing/
-  	
   - Resources/links:
-
-    + https://qiskit.org/
-
+    - https://qiskit.org/
     - https://qiskit.org/learn/?learnLevel=Beginner&timeScale=1%20minute
     - https://medium.com/qiskit/qiskit-and-its-fundamental-elements-bcd7ead80492
     - https://www.ibm.com/blogs/research/2018/05/quantum-circuits/
     - https://qiskit.org/documentation/tutorials/circuits/1_getting_started_with_qiskit.html
-
+    - https://github.com/qiskit-community/qiskit-community-tutorials/blob/master/Coding_With_Qiskit/ep6_Bernstein-Vazirani_Algorithm.ipynb
     
+
+
+---
+
+
 
 - Other course ideas:
 	- unity/ml-agents
 	- screeps
 	- crystal programming language 
 	- basics of web apps for data scientist?
+	- lambda labs might be something to check out
+
+
+Resources built/based off of information from:
+
+https://www.youtube.com/watch?v=mMwovHK2NrE&t=191s
