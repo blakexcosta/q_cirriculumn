@@ -1,6 +1,10 @@
 # Quantum Curriculum Draft
 
 
+
+### Curriculum Draft Intro/Overview
+
+
 - Note: `R:` denotes areas still needed to reserach
 
 
@@ -8,7 +12,7 @@
 
 - Please note this is just MY notes on subject material and resources I felt are good at describing the topics at hand.
 
-- **Instruction, end goals/notes to understand:**
+- ### **Instruction, end goals/notes to understand:**
 
 
   - the end format is intended be structured like:  `theory` , `walkthrough/soft-exercise` and then `hard-exercise` sections at the end.
@@ -16,7 +20,6 @@
     - we want to keep them as separate as possible to avoid bogging down theory portions with *excessive* code. As well as walkthrough's only having relevant theory information when needed (like re-enforcing an important point). The exercises are supposed to be a test of personal skills and applying theory learned and the walkthrough practical's to your own project/exercise.
   - Hands *off* of the keyboard when learning theory. ***DO NOT***  code along with theory if code is used to explain. That is what the walkthrough and exercise portions are for, and they will re-inforce what is needed to be done.
   - **Some smaller details (for staff):**
-
     - highlight what is to be learned at beginning of theory session. And then also highlight what was done at the end of the theory portion or theory video. This re-enforces goals and objectives and provides some structure for everyone involved.
 
       - example:
@@ -28,19 +31,30 @@
     - Keep theory, walkthrough and exercise sections as digestible, bite-sized and succinct as reasonably possible. Goal is to be a *guide* and to lead them through a subject. Not death-by-powerpoint them.
 
       - Focus on clarity over everything. If even one small thing is learned, that is a success. 
+    - Walkthrough's are ***NOT*** the place to bring up new concepts and theory. This should have been covered in the theory lecture/lesson. IF code/ a project was needed to *explain* the theory, then that was the time and the place to do so. ***NOT*** in a walkthrough. 
 
-- **Unit 1 Data Science Fundamentals**
+      - A walkthrough is supposed to be simple (as possible), concise, and practical.
+
+
+---
+
+
+- ## **Unit 1 Data Science Fundamentals**
 	
 	- **Unit/Course Overview**
 	- **Project overview**
-	- Jupyter
+	- **Jupyter**
 		- Anaconda Navigator installation:
-	- Python
-	- Numpy
-	- Pandas
-	- matplotlib
+	- **Python**
+	- **Numpy**
+	- **Pandas**
+	- **matplotlib**
+
+---
+
+
+-  ## **Unit 2 Machine Learning/Deep Learning FUNdamentals**
 	
--  **Unit 2 Machine Learning/Deep Learning FUNdamentals**
 	+ **Overview of the Unit/Course**
 	+ **Project overview (building some simple predictor like study habits predicting passing rates... but more interesting)**
 	+ **AI Ethics**
@@ -99,7 +113,7 @@
 	+ Natural Language Processing ?
 		+ could possibly break this out into it's own course all together
 ---
-- **Unit 3 Quantum Theory + Computing Background** (Theory Section)
+- ## **Unit 3 Quantum Theory + Computing Background** (Theory Section)
 
   - **High level overview/ why important**
   - https://qiskit.org/learn/?learnLevel=Beginner&timeScale=1%20week
@@ -131,7 +145,8 @@
   	- High level overview/ why important
   	- Observables
 ---
-- **Unit 4 Quantum Toolsets (Q#/Qiskit portion of course)** (Walkthrough Section)
+- ## **Unit 4 Quantum Toolsets (Q#/Qiskit portion of course)** (Walkthrough Section)
+
   - **Overview of Unit/Course**
     - **4 pillars of QisKit**
       - Terra - "Earth"
@@ -189,11 +204,25 @@
       - say there's a number in a box. and this number is described by 6 bits. so six strings of 0's and 1's. How many tries are needed to guess it correctly?
         - classical computers will need n-tries for n-bits. meaning that you will need 6 tries. Quantum system's can do this in 1 shot with the Bernstein-Vazirani algorithm.
         - say you have a secret number in  a box. This algorithim will be able to guess it.
-        - {TODO:fill in this area}
-          - https://www.youtube.com/watch?v=sqJIpHYl7oo
+        - {TODO: fill in rest this area on bernstein Vazirani}
+          - [Bernstein-Vazirani Video](https://www.youtube.com/watch?v=sqJIpHYl7oo)
             - *R:* Bernstein-Vazirani algorithm. Didn't get much out of this video to be honest.
-            - R: Good resource for bernstein-vazirani algorithm
-              - https://github.com/qiskit-community/qiskit-community-tutorials/blob/master/Coding_With_Qiskit/ep6_Bernstein-Vazirani_Algorithm.ipynb
+            - R: Good resource for Bernstein-Vazirani algorithm
+              - [Bernstein-Vazirani GitHub](https://github.com/qiskit-community/qiskit-community-tutorials/blob/master/Coding_With_Qiskit/ep6_Bernstein-Vazirani_Algorithm.ipynb)
+  - **Mitigating noise on quantum computers**
+    - [Mitigating Noise Video](https://www.youtube.com/watch?v=yuDxHJOKsVA)
+    - {TODO: Fill in mitigating noise section}
+
+  
+
+  
+
+  ## **Unit 4 Bonus Sections:**
+
+  - **Quantum Games**
+    - [Quantum Games Video](https://www.youtube.com/watch?v=kmCSxfrK_Mg)
+    - {TODO: fille in quantum games section}
+
   - **Contributing to Qiskit project**
     - you can contribute by going to this link [Qiskit Terra Repository](https://github.com/Qiskit/qiskit-terra)
       - click through issues and find one that you like and start contributing. do keep in mind that qiskit `Aer`, `Aqua` and `Ignis` also have their own repositories. I'm putting a list of all the repo's and where they can be found below:
@@ -201,25 +230,57 @@
         - [Qiskit Aqua](https://github.com/Qiskit/qiskit-aqua)
         - [Qiskit Ignis](https://github.com/Qiskit/qiskit-ignis)
         - [Qiskit Terra... again here](https://github.com/Qiskit/qiskit-terra)
-  - **Project overview (maybe a crpyto cipher or something?)**
-  - Appendum of all Resources/links:
-    - https://qiskit.org/
-    - https://qiskit.org/learn/?learnLevel=Beginner&timeScale=1%20minute
-    - https://medium.com/qiskit/qiskit-and-its-fundamental-elements-bcd7ead80492
-    - https://www.ibm.com/blogs/research/2018/05/quantum-circuits/
-    - https://qiskit.org/documentation/tutorials/circuits/1_getting_started_with_qiskit.html
-    - https://github.com/qiskit-community/qiskit-community-tutorials/blob/master/Coding_With_Qiskit/ep6_Bernstein-Vazirani_Algorithm.ipynb
+      - Do keep in mind that these instructions follow with the standards set with `Qiskit Terra`. Though they follow very similar patterns to contributing to other, non-related projects. Contributing is important to the qiskit/quantum computing community as a whole. Not only are you solving an issue within qiskit, but you're also solving it for the entire community.
+        - Assignment: find an issue with the `good first issue` tag and work on it!
+        -  watch this walkthrough: https://www.youtube.com/watch?v=QjZdvNgYl3s
+          - make sure to generally ask permission to work on an issue before just jumping into it as well. You want to make sure that you're not stepping on someone's toes with an issue they've already been working on for a while.
+      - {TODO: include steps on contributing. The above video gave good standards on how to contribute}
+        - actually.... maybe include this lecture as a bonus instead of a requirement. It's important but not what I would call *absolutely* necessary. It's relatively advanced in comparison to some of the other essentials
+
+  
+
+  ---
+
+  ## **Unit 5 Quantum Assignments (Assignments):
+
+  - {TODO: Writeup assignments for each theory/ walkthrough section. a couple examples/ideas in bullets listed below}
+
+    - Assignment 1 (Making a quantum circuit)
+    - Assignment 2 (Contributing to the qiskit project + solving an issue or coding out a new feature)
+    - Assignment 3 (Making a quantum game)
+    - etc.
+
     
+
+  ---
+
+  
+
+  ## Appendix of all Resources/links:
+
+  - [Qiskit website](https://qiskit.org/)
+  - [1 Minute Qiskit overview](https://qiskit.org/learn/?learnLevel=Beginner&timeScale=1%20minute)
+  - [Qiskit medium article Overview](https://medium.com/qiskit/qiskit-and-its-fundamental-elements-bcd7ead80492)
+  - [IBM Quantum Circuits Blog](https://www.ibm.com/blogs/research/2018/05/quantum-circuits/)
+  - [Qiskit Documentation](https://qiskit.org/documentation/tutorials/circuits/1_getting_started_with_qiskit.html)
+  - [Qiskit Online Video Series Jupyter Notebook, Bernstein-Vazirani Algorithm](https://github.com/qiskit-community/qiskit-community-tutorials/blob/master/Coding_With_Qiskit/ep6_Bernstein-Vazirani_Algorithm.ipynb)
+  - [Quantum Games Video](https://www.youtube.com/watch?v=kmCSxfrK_Mg)
+  - [Qiskit Aer Repository](https://github.com/Qiskit/qiskit-aer)
+  - [Qiskit Aqua Repository](https://github.com/Qiskit/qiskit-aqua)
+  - [Qiskit Ignis Repository](https://github.com/Qiskit/qiskit-ignis)
+  - [Qiskit Terra Repository](https://github.com/Qiskit/qiskit-terra)
+
 
 
 ---
 
-
+## Random:
 
 - Other course ideas:
 	- unity/ml-agents
 	- screeps
 	- crystal programming language 
+	- blockchain/ ethereum smart contracts
 	- basics of web apps for data scientist?
 	- lambda labs might be something to check out
 
